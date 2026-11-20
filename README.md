@@ -1,4 +1,4 @@
-# Validador e Blindador de Segurança para Pipelines RAG - TAVARDT Portugal
+# Validador e Blindador de Segurança para Pipelines RAG
 
 > Auditoria de Isolamento de Contexto, Prevenção de Injeção Indireta e Blindagem Defensiva de IA
 
