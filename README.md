@@ -13,7 +13,7 @@ O ecossistema de Recuperação Aumentada por Geração (RAG - Retrieval-Augmente
 
 Este repositório fornece tanto uma aplicação web interativa executada 100% no navegador quanto um utilitário CLI em Python de biblioteca padrão para auditar arquiteturas RAG e gerar blueprints de blindagem defensiva.
 
-## Aplicação Web Interativa (GitHub Pages)
+## Aplicação Web Interativa
 
 Acesse a ferramenta online e audite seu pipeline em tempo real:
 
