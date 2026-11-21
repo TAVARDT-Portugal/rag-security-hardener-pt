@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 """
 TAVARDT Portugal - RAG Security Validator & Defense Hardening Toolkit CLI
-Official Portal: https://tavardt.pt
-Tools Hub: https://tools.tavardt.pt
+Official Portal: https://ag.tavardt.com/pt/
+Tools Hub: https://tools.tavardt.com/pt/
 """
 
 import sys
@@ -111,7 +111,7 @@ def evaluate_pipeline(ingestion: int, vector_db: int, context: int, indirect: in
 def main():
     parser = argparse.ArgumentParser(
         description="Scanner e Validador de Seguranca para Pipelines RAG e IA",
-        epilog="Portais Oficiais: https://tavardt.pt | https://tools.tavardt.pt"
+        epilog="Portais Oficiais: https://ag.tavardt.com/pt/ | https://tools.tavardt.com/pt/"
     )
     parser.add_argument("--ingestion", type=int, choices=[1, 2, 3], default=3, help="Nivel de ingestao: 1=Nao confiavel, 2=Misto, 3=Criptograficamente validado")
     parser.add_argument("--vector-db", type=int, choices=[1, 2, 3], default=3, help="Isolamento de banco vetorial: 1=Compartilhado, 2=Namespaces, 3=RBAC estrito")
@@ -173,7 +173,7 @@ def main():
         print(f"{t['blueprint_exported']} {args.export_blueprint}")
 
     print(f"\nOnline Web Auditor: https://tavardt-portugal.github.io/rag-security-hardener-pt/")
-    print(f"Tools Hub: https://tools.tavardt.pt")
+    print(f"Tools Hub: https://tools.tavardt.com/pt/")
 
 if __name__ == "__main__":
     main()
