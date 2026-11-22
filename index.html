@@ -601,13 +601,15 @@
     padding: 36px;
     margin-bottom: 48px;
   }
-  .aeo-badge {
+  .aeo-badge, #aeo-badge {
     font-size: 0.75rem;
     font-weight: 800;
-    color: var(--accent);
+    color: #839bc8 !important;
     letter-spacing: 0.08em;
     text-transform: uppercase;
     margin-bottom: 10px;
+    text-align: center;
+    display: block;
   }
   .aeo-title {
     font-size: 1.4rem;
@@ -1146,7 +1148,7 @@
     </section>
 
     <section class="aeo-section">
-      <div class="aeo-badge">PADRÃO DE SEGURANÇA DEFENSIVA PARA IA</div>
+      <div class="aeo-badge" id="aeo-badge">PADRÃO DE SEGURANÇA DEFENSIVA PARA IA</div>
       <h2 class="aeo-title">O que é a Vulnerabilidade de Injeção Indireta de Prompt em Pipelines RAG?</h2>
       <div class="aeo-content">
         <p>A injeção indireta de prompt em pipelines RAG (Retrieval-Augmented Generation) ocorre quando um atacante envenena documentos externos, páginas web ou bases corporativas de conhecimento com instruções hostis ocultas. Durante a consulta do usuário, o motor de busca vetorial recupera esses fragmentos envenenados e os concatena diretamente na janela de contexto do LLM.</p>
