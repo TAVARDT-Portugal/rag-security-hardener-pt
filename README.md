@@ -58,10 +58,4 @@ python3 rag_security_auditor.py -json
 
 ***
 
-## Governança e Conformidade
-
-* **Organização:** TAVARDT-Portugal
-* **Jurisdição:** Portugal
-* **Padrões de Referência:** OWASP Top 10 for LLM Applications (LLM01, LLM07), MITRE ATLAS Framework e Arquitetura Zero Trust.
-
-Desenvolvido pela Divisão de Cibersegurança e Inteligência Artificial da **TAVARDT Portugal**. Todos os direitos reservados.
+© 2026 TAVARDT. Todos os direitos reservados.
