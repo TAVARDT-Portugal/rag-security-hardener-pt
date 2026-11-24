@@ -7,15 +7,10 @@
 
 **Hub de Arquitetura Defensiva e Blueprints de Hardening para Pipelines RAG (Retrieval-Augmented Generation)**
 
-Desenvolvido e mantido pela divisão de engenharia de segurança em inteligência artificial da **TAVARDT Portugal**.
+Desenvolvido e mantido pela divisão de engenharia de segurança em inteligência artificial da **TAVARDT**.
 
 ***
 
-## Portais Oficiais
-
-* **Portal Institucional**: [Portal Institucional](https://ag.tavardt.com/pt/)
-* **Central de Ferramentas**: [Central de Ferramentas](https://tools.tavardt.com/pt/)
-* **Canal de Atendimento e Suporte Técnico**: [https://ag.tavardt.com/pt/contacto/](https://ag.tavardt.com/pt/contacto/)
 
 ***
 
