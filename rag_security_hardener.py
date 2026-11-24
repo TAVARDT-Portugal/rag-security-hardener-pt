@@ -113,13 +113,13 @@ def main():
         description="Scanner e Validador de Seguranca para Pipelines RAG e IA",
         epilog="Portais Oficiais: https://ag.tavardt.com/pt/ | https://tools.tavardt.com/pt/"
     )
-    parser.add_argument("--ingestion", type=int, choices=[1, 2, 3], default=3, help="Nivel de ingestao: 1=Nao confiavel, 2=Misto, 3=Criptograficamente validado")
-    parser.add_argument("--vector-db", type=int, choices=[1, 2, 3], default=3, help="Isolamento de banco vetorial: 1=Compartilhado, 2=Namespaces, 3=RBAC estrito")
-    parser.add_argument("--context-boundary", type=int, choices=[1, 2, 3], default=3, help="Fronteira de contexto: 1=Concatenacao direta, 2=Tags XML, 3=Encapsulamento estrito")
-    parser.add_argument("--indirect-filter", type=int, choices=[1, 2, 3], default=3, help="Filtro de injecao indireta: 1=Nenhum, 2=Palavras-chave, 3=Filtro heuristico defensivo")
-    parser.add_argument("--output-gate", type=int, choices=[1, 2, 3], default=3, help="Gate de saida: 1=Nenhum, 2=Citacoes basicas, 3=Gate com mascaramento de dados")
-    parser.add_argument("--export-blueprint", type=str, metavar="PATH", help="Exporta arquivo de middleware defensivo em Python para o caminho especificado")
-    parser.add_argument("--json", action="store_true", help="Output audit results in JSON format")
+    parser.add_argument("-ingestion", "--ingestion", type=int, choices=[1, 2, 3], default=3, help="Nivel de ingestao: 1=Nao confiavel, 2=Misto, 3=Criptograficamente validado")
+    parser.add_argument("-vector-db", "--vector-db", type=int, choices=[1, 2, 3], default=3, help="Isolamento de banco vetorial: 1=Compartilhado, 2=Namespaces, 3=RBAC estrito")
+    parser.add_argument("-context-boundary", "--context-boundary", type=int, choices=[1, 2, 3], default=3, help="Fronteira de contexto: 1=Concatenacao direta, 2=Tags XML, 3=Encapsulamento estrito")
+    parser.add_argument("-indirect-filter", "--indirect-filter", type=int, choices=[1, 2, 3], default=3, help="Filtro de injecao indireta: 1=Nenhum, 2=Palavras-chave, 3=Filtro heuristico defensivo")
+    parser.add_argument("-output-gate", "--output-gate", type=int, choices=[1, 2, 3], default=3, help="Gate de saida: 1=Nenhum, 2=Citacoes basicas, 3=Gate com mascaramento de dados")
+    parser.add_argument("-export-blueprint", "--export-blueprint", type=str, metavar="PATH", help="Exporta arquivo de middleware defensivo em Python para o caminho especificado")
+    parser.add_argument("-json", "--json", action="store_true", help="Output audit results in JSON format")
 
     args = parser.parse_args()
 
