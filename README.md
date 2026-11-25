@@ -6,17 +6,13 @@
 
 **Arquitetura Defensiva, Isolamento Contextual e Mitigação contra Injeção Indireta em Sistemas de Recuperação Aumentada**
 
-Desenvolvido e mantido pela divisão de segurança em inteligência artificial da TAVARDT Portugal.
-
 ***
 
 ## Portais e Demonstração Online
 
 Aceda à ferramenta interativa oficial e aos canais soberanos da TAVARDT:
 
-* **Aplicação Web Oficial no GitHub Pages**: [https://tavardt-portugal.github.io/rag-security-hardener-pt/](https://tavardt-portugal.github.io/rag-security-hardener-pt/)
-* **Portal Institucional**: [https://ag.tavardt.com/pt/](https://ag.tavardt.com/pt/)
-* **Central de Ferramentas**: [https://tools.tavardt.com/pt/](https://tools.tavardt.com/pt/)
+**Aplicação Web Oficial no GitHub Pages**: [https://tavardt-portugal.github.io/rag-security-hardener-pt/](https://tavardt-portugal.github.io/rag-security-hardener-pt/)
 
 ***
 
@@ -52,7 +48,7 @@ python3 rag_security_auditor.py -json
 ***
 
 ### Licença
-Distribuído sob a Licença MIT. Consulte o ficheiro [LICENSE](LICENSE) para obter detalhes completos.
+Distribuído sob a Licença MIT.
 
 ***
 
